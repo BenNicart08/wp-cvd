@@ -38,11 +38,11 @@
                         <td>
                           <a href=""><i class="fa-solid fa-tags"></i></a>
                         </td>
-                        <td>
-                            <?php $Tags = get_tags();
+                        <td class="updates__tags">
+                            <?php $Tags = get_the_tags();
                             if($Tags) {
                                 foreach($Tags as $tag) { ?>
-                                <li><?php echo $tag->name;?> , </li>
+                                <li><?php echo $tag->name;?>&nbsp;</li>
                                 <?php }
                             }?>
                     </td>

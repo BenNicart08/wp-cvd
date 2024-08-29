@@ -1464,3 +1464,7 @@ textarea {
   height: 40rem;
   object-fit: cover;
 }
+
+.updates__tags {
+  display: flex;
+}
