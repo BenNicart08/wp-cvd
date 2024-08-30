@@ -1460,11 +1460,14 @@ textarea {
 }
 
 .updatescard__img img {
-  width: 100%;
+  width: 80rem;
   height: 40rem;
   object-fit: cover;
 }
 
 .updates__tags {
   display: flex;
+}
+.recentcard img {
+  height: 10rem;
 }

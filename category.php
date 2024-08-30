@@ -3,7 +3,7 @@
       <div class="container">
         <div class="updates__wrapper">
           <div class="updates__title">
-            <sh2> LATEST TRENDS </sh2>
+            <sh2> <?php single_cat_title()?> </sh2>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
           <div class="updatesseparate">
